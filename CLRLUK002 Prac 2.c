@@ -35,7 +35,7 @@ int main()
         scanf("%d",&DR);                                                               // store the input
         printf("The radix you have entered is %d\n", DR);                              // calcuation ouput
         printf("The log%d of the number is %.2f\n",DR, (log(DN)/log(DR)));               // calcuation ouput
-        printf("The integer result of the number divided by 2 is %d\n", DN/DR);         // calcuation ouput
+        printf("The integer result of the number divided by %d is %d\n",DR, DN/DR);         // calcuation ouput
         printf("The remainder is %d\n", DN%DR);                                         // use"%" to find remainder and display output
 
 int size = (log(DN)/log(DR)+1);      //determing the size of the array
